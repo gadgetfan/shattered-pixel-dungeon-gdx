@@ -47,7 +47,7 @@ project(":desktop") {
 	}
 }
 
-/*project(":android") {
+project(":android") {
 	apply plugin: "android"
 
 	configurations { natives }
@@ -63,7 +63,7 @@ project(":desktop") {
 	}
 }
 
-project(":ios") {
+/*project(":ios") {
 	apply plugin: "java"
 	apply plugin: "robovm"
 
