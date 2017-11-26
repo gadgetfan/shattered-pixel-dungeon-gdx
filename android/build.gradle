@@ -18,11 +18,11 @@ android {
         exclude 'META-INF/robovm/ios/robovm.xml'
     }
     defaultConfig {
-        applicationId "com.watabou.pd"
+        applicationId appId
+        versionCode project.ext.versionCode
+        versionName version
         minSdkVersion 9
         targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
     }
     buildTypes {
         release {
